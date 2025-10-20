@@ -1,6 +1,12 @@
-   .env
-   *.env
-   .env.*
+# Environment variables
+.env
+*.env
+.env.*
+.env.local
+.env.development
+.env.staging
+.env.production
 
-   **/.env
-   **/*.env
+# Environment variables in subdirectories
+**/.env
+**/*.env
